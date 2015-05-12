@@ -37,6 +37,7 @@ a:visited {
 a:hover, a:focus, a:active {
 	font-weight: normal;
 	color: green;
+	border: 1px solid black;
 }
 .page-wrapper {
 	background: url('images/page-wrapperbg.jpeg') no-repeat;
@@ -138,7 +139,7 @@ header h2 {
 }
 .zen-resources a:hover {
 	color: purple;
-	font-weight: bold;
+	border: 1px solid black;
 }
 .explanation {
 	background: url('images/explanationbg.jpg') no-repeat;
@@ -236,8 +237,8 @@ footer a {
 }
 .design-archives {
 	position: relative;
-	top: 2800px;
-	left: 910px;
+	top: 2780px;
+	left: 900px;
 	width: 240px;
 }
 .design-archives li {
@@ -250,7 +251,8 @@ footer a {
 	color: transparent;
 }
 .design-archives a {
-	color: white;
+	color: black;
+	border: 3px dotted white;
 }
 .design-selection {
 	position: absolute;
