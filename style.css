@@ -36,6 +36,7 @@ a:visited {
 }
 a:hover, a:focus, a:active {
 	color: green;
+	border: 1px solid black;
 	border: 2px solid black;
 }
 .page-wrapper {
@@ -143,6 +144,8 @@ header h2 {
 	color: black;
 }
 .zen-resources a:hover {
+	color: purple;
+	border: 1px solid black;
 	border: 3px dotted purple;
 }
 .zen-resources:hover {
@@ -253,6 +256,8 @@ footer:hover {
 }
 .design-archives {
 	position: relative;
+	top: 2780px;
+	left: 900px;
 	top: 2820px;
 	left: 915px;
 	width: 240px;
@@ -268,6 +273,7 @@ footer:hover {
 }
 .design-archives a {
 	color: black;
+	border: 3px dotted white;
 	border: 2px dotted white;
 }
 .design-archives a:hover {
