@@ -232,8 +232,8 @@ header h2 {
 	width: 100px;
 	font-size: 30px;
 	position: relative;
-	left: 700px;
-	top: 2635px;
+	left: 595px;
+	top: 2645px;
 }
 footer {
 	background: url('images/view-all-designs.jpg') no-repeat;
@@ -256,9 +256,7 @@ footer:hover {
 }
 .design-archives {
 	position: relative;
-	top: 2780px;
-	left: 900px;
-	top: 2820px;
+	top: 2770px;
 	left: 915px;
 	width: 240px;
 }
