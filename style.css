@@ -108,18 +108,13 @@ body {
 	color: white;
 }
 
-
-#zen-supporting {
-	margin: 2px;
-}
-
 .supporting {
 	background: url("images/fur.png");
 	background-repeat: no-repeat;
 	height: auto;
 	position: relative;
 	top: 1023px;
-
+	border-top: 2px solid white;
 }
 
 .explanation {
