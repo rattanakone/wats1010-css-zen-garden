@@ -44,8 +44,8 @@ body {
 	color: white;
 	font-weight: normal;
 	text-align: center;
-	font-size: 60px;
-	margin: 200px;
+	font-size: 50px;
+	margin: 40px;
 	margin-bottom: 5px;
 }
 
@@ -54,15 +54,15 @@ body {
 	font-weight: normal;
 	font-size: 20px;
 	position: absolute;
-	left: 850px;
+	left: 250px;
 }
 
 .summary {
 	padding: 50px;
 	background: #58005b;
-	height: 722px;
+	height: 499px;
 	width: 450px;
-	padding-top: 250px;
+	padding-top: 150px;
 	margin-left: 450px;
 	position: absolute;
 	top: 1001px;
@@ -85,11 +85,11 @@ body {
 }
 
 .preamble {
-  	padding: 100px;
+  	padding: 70px;
 	background: #cf5b5b;
-	height: 722px;
+	height: 552px;
 	width: 500px;
-	padding-top: 100px;
+	padding-top: 40px;
 	margin-left: 900px;
 	position: absolute;
 	top: 1001px;
@@ -109,9 +109,9 @@ body {
 }
 
 .supporting {
-	height: 1010px;
+	height: 1100px;
 	position: relative;
-	top: 1023px;
+	top: 800px;
 	border-top: 2px solid white;
 	background-attachment: scroll;
   	background: url("images/deerears.png");
@@ -125,46 +125,47 @@ body {
 
 .explanation {
 	background: transparent;
-	padding: 80px;
-	width: 700px;
+	padding: 100px;
+	width: 800px;
 	height: 550px;
 }
 
 .explanation h3 {
 	font-weight: normal;
-	font-size: 35px;
-	color: black;
-	background-color: white;
-	padding: 5px;
-	text-align: center;
+	font-size: 30px;
+	color: white;
+	background-color: transparent;
+	padding: 10px;
+	text-align: left;
 }
 
 .explanation p {
-	color: black;
-	background-color: white;
-	padding: 10px;
+	color: white;
+	background-color: transparent;
+	padding: 20px;
+	font-size: 18px;
 }
 
 .participation {
 	background: transparent;
 	padding: 40px;
-	width: 700px;
+	width: 900px;
 	height: 450px;	
 }
 
 .participation h3 {
 	font-weight: normal;
-	color: black;
-	font-size: 35px;
-	background-color: white;
-	padding: 5px;
-	text-align: center;
+	color: white;
+	font-size: 30px;
+	background-color: transparent;
+	padding: 10px;
+	text-align: left;
 }
 
 .participation p {
-	color: black;
-	background-color: white;
-	padding: 5px;
+	color: white;
+	background-color: transparent;
+	font-size: 18px;
 }
 
 .participation a {
@@ -173,7 +174,7 @@ body {
 }
 
 .participation a:hover {
-	color: #D3D3D3;
+	color: white;
 }
 
 .benefits {
@@ -200,7 +201,7 @@ body {
 	text-align: center;
 	position: absolute;
   	left: 200px;
-  	width: 350px;
+  	width: 400px;
   	padding: 15px;
 }
 
@@ -210,7 +211,7 @@ body {
 	line-height: 20px;
 	position: absolute;
   	left: 200px;
-  	width: 350px;
+  	width: 400px;
   	top: 320px;
   	padding: 50px;
 }
@@ -251,15 +252,13 @@ body {
 }
 
 .sidebar {
-	
 	background: #b2325b;
-	padding: 15px;
 	position: absolute;
 	top: 1003px;
   	left: 0px;
  	width: 500px;
- 	padding: 108px;
- 	height: 720px;
+ 	padding: 20px;
+ 	height: 497px;
 }
 
 .wrapper {
@@ -334,393 +333,13 @@ footer a:hover {
 	color: #D3D3D3;
 }
 
-@media only screen and (max-width: 1366px) {
-	.intro h1 {
+@media(min-width:900px) {
+  	.intro h1 {
 		color: white;
 		font-weight: normal;
 		text-align: center;
 		font-size: 60px;
 		margin: 200px;
-		margin-bottom: 5px;
-
-	}
-
-	.intro h2 {
-		color: white;
-		font-weight: normal;
-		font-size: 20px;
-		position: absolute;
-		left: 850px;
-	}
-
-	.sidebar {
-		background: #b2325b;
-		position: absolute;
-		top: 1003px;
-	  	left: 0px;
-	 	width: 500px;
-	 	padding: 80px;
-	 	padding-top: 120px;
-	 	height: 720px;
-	}
-
-	.summary {
-		padding: 30px;
-		background: #58005b;
-		height: 722px;
-		width: 350px;
-		padding-top: 250px;
-		margin-left: 450px;
-		position: absolute;
-		top: 1001px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	}
-
-	.preamble {
-	  	padding: 100px;
-		background: #cf5b5b;
-		height: 722px;
-		width: 500px;
-		padding-top: 100px;
-		margin-left: 800px;
-		position: absolute;
-		top: 1001px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	  
-	}
-    
-    .requirements {
-		padding: 100px;
-		background: #003b99;
-		height: 850px;
-		width: 675px;
-		padding-top: 100px;
-		margin-left: 750px;
-		position: absolute;
-		top: 1000px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	}
-
-	.requirements h3 {
-		font-weight: normal;
-		font-size: 35px;
-		color: white;
-		text-align: center;
-		line-height: 20px;
-	}
-
-}
-
-@media only screen and (max-width: 1280px) {
-	.intro h1 {
-		color: white;
-		font-weight: normal;
-		text-align: center;
-		font-size: 60px;
-		margin: 200px;
-		margin-bottom: 5px;
-
-	}
-
-	.intro h2 {
-		color: white;
-		font-weight: normal;
-		font-size: 20px;
-		position: absolute;
-		left: 750px;
-	}
-
-	.sidebar {
-		background: #b2325b;
-		position: absolute;
-		top: 1003px;
-	  	left: 0px;
-	 	width: 475px;
-	 	padding: 80px;
-	 	padding-top: 120px;
-	 	height: 720px;
-	}
-
-	.summary {
-		padding: 30px;
-		background: #58005b;
-		height: 722px;
-		width: 325px;
-		padding-top: 250px;
-		margin-left: 425px;
-		position: absolute;
-		top: 1001px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	}
-
-	.preamble {
-	  	padding: 100px;
-		background: #cf5b5b;
-		height: 722px;
-		width: 475px;
-		padding-top: 100px;
-		margin-left: 750px;
-		position: absolute;
-		top: 1001px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	  
-	}
-
-	.benefits h3 {
-		font-weight: normal;
-		font-size: 35px;
-		color: white;
-		text-align: center;
-		position: absolute;
-	  	left: 150px;
-	  	width: 300px;
-
-	}
-
-	.benefits p {
-		color: white;
-		line-height: 20px;
-		position: absolute;
-	  	left: 150px;
-	  	width: 350px;
-	  	top: 320px;
-	}
-
-	.requirements {
-		padding: 100px;
-		background: #003b99;
-		height: 850px;
-		width: 675px;
-		padding-top: 100px;
-		margin-left: 625px;
-		position: absolute;
-		top: 1000px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	}
-
-	.requirements h3 {
-		font-weight: normal;
-		font-size: 35px;
-		color: white;
-		text-align: center;
-		line-height: 20px;
-	}
-    
-}
-
-@media only screen and (max-width: 1180px) {
-	.intro h1 {
-		color: white;
-		font-weight: normal;
-		text-align: center;
-		font-size: 60px;
-		margin: 200px;
-		margin-bottom: 5px;
-
-	}
-
-	.intro h2 {
-		color: white;
-		font-weight: normal;
-		font-size: 20px;
-		position: absolute;
-		left: 750px;
-	}
-
-	.sidebar {
-		background: #b2325b;
-		position: absolute;
-		top: 1003px;
-	  	left: 0px;
-	 	width: 375px;
-	 	padding: 70px;
-	 	padding-top: 80px;
-	 	height: 720px;
-	}
-
-	.summary {
-		padding: 30px;
-		background: #58005b;
-		height: 722px;
-		width: 325px;
-		padding-top: 250px;
-		margin-left: 325px;
-		position: absolute;
-		top: 1001px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	}
-
-	.preamble {
-	  	padding: 100px;
-		background: #cf5b5b;
-		height: 722px;
-		width: 475px;
-		padding-top: 100px;
-		margin-left: 650px;
-		position: absolute;
-		top: 1001px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	  
-	}
-
-	.benefits h3 {
-		font-weight: normal;
-		font-size: 35px;
-		color: white;
-		text-align: center;
-		position: absolute;
-	  	left: 100px;
-	  	width: 300px;
-
-	}
-
-	.benefits p {
-		color: white;
-		line-height: 20px;
-		position: absolute;
-	  	left: 100px;
-	  	width: 350px;
-	  	top: 320px;
-	}
-
-	.requirements {
-		padding: 100px;
-		background: #003b99;
-		height: 850px;
-		width: 675px;
-		padding-top: 100px;
-		margin-left: 525px;
-		position: absolute;
-		top: 1000px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	}
-
-	.requirements h3 {
-		font-weight: normal;
-		font-size: 35px;
-		color: white;
-		text-align: center;
-		line-height: 20px;
-	}
-    
-}
-
-@media only screen and (max-width: 1080px) {
-	.intro h1 {
-		color: white;
-		font-weight: normal;
-		text-align: center;
-		font-size: 60px;
-		margin: 200px;
-		margin-bottom: 5px;
-
-	}
-
-	.intro h2 {
-		color: white;
-		font-weight: normal;
-		font-size: 20px;
-		position: absolute;
-		left: 700px;
-	}
-
-	.sidebar {
-		background: #b2325b;
-		position: absolute;
-		top: 1003px;
-	  	left: 0px;
-	 	width: 350px;
-	 	padding: 70px;
-	 	padding-top: 80px;
-	 	height: 720px;
-	}
-
-	.summary {
-		padding: 30px;
-		background: #58005b;
-		height: 722px;
-		width: 325px;
-		padding-top: 250px;
-		margin-left: 300px;
-		position: absolute;
-		top: 1001px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	}
-
-	.preamble {
-	  	padding: 100px;
-		background: #cf5b5b;
-		height: 722px;
-		width: 475px;
-		padding-top: 100px;
-		margin-left: 625px;
-		position: absolute;
-		top: 1001px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	  
-	}
-
-	.benefits h3 {
-		font-weight: normal;
-		font-size: 35px;
-		color: white;
-		text-align: center;
-		position: absolute;
-	  	left: 50px;
-	  	width: 300px;
-
-	}
-
-	.benefits p {
-		color: white;
-		line-height: 20px;
-		position: absolute;
-	  	left: 50px;
-	  	width: 350px;
-	  	top: 320px;
-	}
-
-	.requirements {
-		padding: 100px;
-		background: #003b99;
-		height: 850px;
-		width: 675px;
-		padding-top: 100px;
-		margin-left: 450px;
-		position: absolute;
-		top: 1000px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	}
-
-	.requirements h3 {
-		font-weight: normal;
-		font-size: 35px;
-		color: white;
-		text-align: center;
-		line-height: 20px;
-	}
-    
-}
-
-@media only screen and (max-width: 1024px) {
-	.intro h1 {
-		color: white;
-		font-weight: normal;
-		text-align: center;
-		font-size: 60px;
-		margin: 190px;
 		margin-bottom: 5px;
 
 	}
@@ -732,85 +351,4 @@ footer a:hover {
 		position: absolute;
 		left: 600px;
 	}
-
-	.sidebar {
-		background: #b2325b;
-		position: absolute;
-		top: 1003px;
-	  	left: 0px;
-	 	width: 300px;
-	 	padding: 20px;
-	 	padding-top: 70px;
-	 	height: 720px;
-	}
-
-	.summary {
-		padding: 30px;
-		background: #58005b;
-		height: 722px;
-		width: 250px;
-		padding-top: 250px;
-		margin-left: 250px;
-		position: absolute;
-		top: 1001px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	}
-
-	.preamble {
-	  	padding: 90px;
-		background: #cf5b5b;
-		height: 722px;
-		width: 475px;
-		padding-top: 100px;
-		margin-left: 500px;
-		position: absolute;
-		top: 1001px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	  
-	}
-
-	.benefits h3 {
-		font-weight: normal;
-		font-size: 35px;
-		color: white;
-		text-align: center;
-		position: absolute;
-	  	left: 25px;
-	  	width: 300px;
-
-	}
-
-	.benefits p {
-		color: white;
-		line-height: 20px;
-		position: absolute;
-	  	left: 25px;
-	  	width: 350px;
-	  	top: 320px;
-	  	padding: 10px;
-	}
-
-	.requirements {
-		padding: 50px;
-		background: #003b99;
-		height: 850px;
-		width: 600px;
-		padding-top: 100px;
-		margin-left: 375px;
-		position: absolute;
-		top: 1000px;
-		border-top: 2px solid white;
-		border-left: 2px solid white;
-	}
-
-	.requirements h3 {
-		font-weight: normal;
-		font-size: 35px;
-		color: white;
-		text-align: center;
-		line-height: 20px;
-	}
-    
 }
